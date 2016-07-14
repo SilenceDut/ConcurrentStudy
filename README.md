@@ -3,5 +3,5 @@
 
 多概念是理解性的。但理解这些概念会帮助我们理解优秀源码（要不然别人的代码都看不懂(・ε・)）以及者写程序时会有更多的思考。
 
-- [并发的一些基础概念](https://github.com/SilenceDut/ConcurrentStudy/blob/master/concurrent_foundation.md)
+- [并发的一些基础概念](https://github.com/SilenceDut/ConcurrentStudy/blob/master/foundation_concurrent.md)
 - [通过单例模式理解synchronized,volatile以及原子类AtomicReference](https://github.com/SilenceDut/ConcurrentStudy/blob/master/Singleton_concurrent.md)
