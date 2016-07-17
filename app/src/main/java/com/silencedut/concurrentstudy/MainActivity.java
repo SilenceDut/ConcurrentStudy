@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         final ThreadLocal<Integer> integerThreadLocal = new ThreadLocal<Integer>();
         integerThreadLocal.set(1);
         Log.i(TAG+Thread.currentThread(),integerThreadLocal.get()+"");
-
+        Looper.prepare();
         HandlerThread ioThread = new HandlerThread("IoThread");
         ioThread.start();
         Handler ioHandle = new Handler(ioThread.getLooper());
