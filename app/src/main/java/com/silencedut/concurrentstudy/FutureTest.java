@@ -25,9 +25,7 @@ public class FutureTest {
         executor.shutdown();
         try {
             System.out.println("task运行结果" + futureTask.get());
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        } catch (ExecutionException e) {
+        } catch (InterruptedException | ExecutionException e) {
             e.printStackTrace();
         }
     }
@@ -40,9 +38,7 @@ public class FutureTest {
         thread.start();
         try {
             System.out.println("task运行结果" + futureTask.get());
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        } catch (ExecutionException e) {
+        } catch (InterruptedException | ExecutionException e) {
             e.printStackTrace();
         }
 
