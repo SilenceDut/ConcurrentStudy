@@ -41,7 +41,6 @@ public class FutureTest {
         } catch (InterruptedException | ExecutionException e) {
             e.printStackTrace();
         }
-
     }
 
     class SumTask implements Callable<Integer> {
